@@ -1,0 +1,5 @@
+
+
+{% with messages = get_flashed_messages(category_filter=['login']) %}
+
+flash("Passwords don't match","login")
